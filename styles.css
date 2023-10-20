@@ -1,0 +1,142 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #634848;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #2c2013; /* Color marrón */
+    color: #d6dadc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d6dadc;
+    font-weight: bold;
+}
+
+/* Sección de héroe */
+#hero {
+    background-image: url('hero-image.jpg'); /* Reemplaza con la URL de tu imagen de fondo */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8B4513; /* Color marrón */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #6E2C0E; /* Color marrón más oscuro al pasar el ratón */
+}
+
+/* Sección de menú */
+#menu {
+    background-color: #D2B48C; /* Color peru */
+    padding: 60px;    
+}
+
+#menu h2 {
+    font-size: 24px;
+}
+
+/* Sección de reservas */
+#reservas {
+    background-color: #eeebd2; /* Color khaki */
+    padding: 60px;    
+}
+
+form label, form input, form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #8B4513; /* Color marrón */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input {
+    width: 50%; /* Establece el ancho al 100% del contenedor */
+    padding: 10px; /* Agrega relleno (padding) para mejorar el espacio interior */
+    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
+}
+
+/* Sección de contacto */
+#contacto {
+    background-color: #BC8F8F; /* Color rosybrown */
+    padding: 20px;
+}
+
+address p {
+    margin: 10px 0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #220f02; /* Color marrón */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+/* Estilos de Responsive Design con Flexbox */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    #hero {
+        padding: 50px 0;
+    }
+}

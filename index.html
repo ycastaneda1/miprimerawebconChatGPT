@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante donde el paisa</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo CSS aquí -->
+</head>
+<body>
+    <header>
+        <h1>Restaurante_donde_el_paisa</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Bienvenido a una Experiencia Culinaria Única</h2>
+        <img src="imagenes/restaurante.jpg" alt="imagen Restaurante">
+        <p>Descubre nuestros deliciosos platos y disfruta de un ambiente acogedor.</p>
+        <a href="#reservas" class="cta-button">Reserva una mesa</a>
+    </section>
+
+    <section id="menu">
+        <h2>Menú</h2>
+        
+        <!-- Aquí puedes listar los platos, descripciones y precios -->
+        <section id="menu">
+                        
+            <!-- Entradas -->
+            <div class="category">
+                <h3>Entradas</h3>
+                <ul>
+                    <li>Entrada 1: Arepa paisa.</li>
+                    <li>Entrada 2: Chorizo</li>
+                    <!-- Puedes agregar más elementos de entrada aquí -->
+                </ul>
+            </div>
+    
+            <!-- Platos Fuertes -->
+            <div class="category">
+                <h3>Platos Fuertes</h3>
+                <ul>
+                    <li>Plato Fuerte 1: Bandeja Paisa.</li>
+                    <li>Plato Fuerte 2: Cazuela de fríjoles.</li>
+                    <!-- Puedes agregar más elementos de platos fuertes aquí -->
+                </ul>
+            </div>
+    
+            <!-- Bebidas -->
+            <div class="category">
+                <h3>Bebidas</h3>
+                <ul>
+                    <li>Bebida 1: Limonada.</li>
+                    <li>Bebida 2: Gaseosa.</li>
+                    <!-- Puedes agregar más elementos de bebidas aquí -->
+                </ul>
+            </div>
+        </section>
+
+    </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>Reserva una mesa para una ocasión especial o simplemente para disfrutar de una deliciosa comida.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <label for="comensales">Número de Comensales:</label>
+            <input type="number" id="comensales" name="comensales" required>
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? No dudes en ponerte en contacto con nosotros.</p>
+        <address>
+            <p>Dirección: Calle del Restaurante, Ciudad</p>
+            <p>Teléfono: (123) 456-7890</p>
+            <p>Email: info@restaurantenombre.com</p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Restaurante NombreDelRestaurante. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
